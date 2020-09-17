@@ -14,34 +14,41 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.devsuperior.dspesquisa.entities.enums.Platform;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name = "tb_Game")
+@Table(name = "tb_game")
 public class Game implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	private String title;
 	private Platform platform;
-	
-	@ManyToOne
+
+	@ManyToOne 
 	@JoinColumn(name = "genre_id")
 	private Genre genre;
-	
+
 	@OneToMany(mappedBy = "game")
 	private List<Record> records = new ArrayList<>();
-	
-	public Game() {		
+
+	public Game() {
 	}
 
-	public long getId() {
+	public Game(Long id, String title, Platform platform, Genre genre) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.platform = platform;
+		this.genre = genre;
+	}
+
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -73,19 +80,14 @@ public class Game implements Serializable {
 		return records;
 	}
 
-	public Game(long id, String title, Platform platform, Genre genre) {
-		super();
-		this.id = id;
-		this.title = title;
-		this.platform = platform;
-		this.genre = genre;
-	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + (int) (id ^ (id >>> 32));
+		result = prime * result + ((genre == null) ? 0 : genre.hashCode());
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		result = prime * result + ((platform == null) ? 0 : platform.hashCode());
+		result = prime * result + ((title == null) ? 0 : title.hashCode());
 		return result;
 	}
 
@@ -98,8 +100,30 @@ public class Game implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Game other = (Game) obj;
-		if (id != other.id)
+		if (genre == null) {
+			if (other.genre != null)
+				return false;
+
+		} else if (!genre.equals(other.genre))
+			return false;
+
+		if (id == null) {
+			if (other.id != null)
+				return false;
+
+		} else if (!id.equals(other.id))
+			return false;
+
+		if (platform != other.platform)
+			return false;
+
+		if (title == null) {
+			if (other.title != null)
+				return false;
+
+		} else if (!title.equals(other.title))
 			return false;
 		return true;
+
 	}
 }

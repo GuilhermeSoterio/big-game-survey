@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 public class RecordInsertDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	private String name;
 	private Integer age;
-	private Long gameId;
-	
-	public RecordInsertDTO() {		
+	private Long gameID;
+
+	public RecordInsertDTO() {
 	}
 
 	public String getName() {
@@ -28,12 +28,12 @@ public class RecordInsertDTO implements Serializable {
 		this.age = age;
 	}
 
-	public Long getGameId() {
-		return gameId;
+	public Long getGameID() {
+		return gameID;
 	}
 
-	public void setGameId(Long gameId) {
-		this.gameId = gameId;
+	public void setGameID(Long gameID) {
+		this.gameID = gameID;
 	}
-	
+
 }

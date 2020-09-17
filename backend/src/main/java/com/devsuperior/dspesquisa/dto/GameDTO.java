@@ -5,13 +5,14 @@ import java.io.Serializable;
 import com.devsuperior.dspesquisa.entities.Game;
 import com.devsuperior.dspesquisa.entities.enums.Platform;
 
+
 public class GameDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	private Long id;
 	private String title;
 	private Platform platform;
-	
+
 	public GameDTO() {
 	}
 
@@ -20,8 +21,7 @@ public class GameDTO implements Serializable {
 		title = entity.getTitle();
 		platform = entity.getPlatform();
 	}
-	//uma forma pratica de instanciar o gameDTo atraves de um game
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -45,5 +45,4 @@ public class GameDTO implements Serializable {
 	public void setPlatform(Platform platform) {
 		this.platform = platform;
 	}
-	
 }

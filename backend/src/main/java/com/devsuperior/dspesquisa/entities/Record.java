@@ -12,22 +12,22 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tb_Record")
+@Table(name = "tb_record")
 public class Record implements Serializable {
 	private static final long serialVersionUID = 1L;
-
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
 	private Integer age;
 	private Instant moment;
-	
+
 	@ManyToOne
 	@JoinColumn(name = "game_id")
 	private Game game;
-	
-	public Record () {
+
+	public Record() {
 	}
 
 	public Record(Long id, String name, Integer age, Instant moment, Game game) {
@@ -95,12 +95,15 @@ public class Record implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
+		
 		Record other = (Record) obj;
 		if (id == null) {
 			if (other.id != null)
 				return false;
+			
 		} else if (!id.equals(other.id))
 			return false;
+		
 		return true;
 	}
 }

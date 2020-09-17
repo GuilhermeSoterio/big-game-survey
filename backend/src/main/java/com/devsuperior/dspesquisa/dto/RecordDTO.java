@@ -1,14 +1,18 @@
 package com.devsuperior.dspesquisa.dto;
 
 import java.io.Serializable;
+
 import java.time.Instant;
 
+
+
 import com.devsuperior.dspesquisa.entities.Record;
+
 import com.devsuperior.dspesquisa.entities.enums.Platform;
 
 public class RecordDTO implements Serializable {
+
 	private static final long serialVersionUID = 1L;
-	
 	private Long id;
 	private Instant moment;
 	private String name;
@@ -16,18 +20,18 @@ public class RecordDTO implements Serializable {
 	private String gameTitle;
 	private Platform gamePlatform;
 	private String genreName;
-	
+
 	public RecordDTO() {
 	}
-	
-	public RecordDTO(Record Entity) {
-		id = Entity.getId();
-		moment = Entity.getMoment();
-		name = Entity.getName();
-		age = Entity.getAge();
-		gameTitle = Entity.getGame().getTitle();
-		gamePlatform = Entity.getGame().getPlatform();
-		genreName = Entity.getGame().getGenre().getName();
+
+	public RecordDTO(Record entity) {
+		id = entity.getId();
+		moment = entity.getMoment();
+		name = entity.getName();
+		age = entity.getAge();
+		gameTitle = entity.getGame().getTitle(); // Navegando em 'Game' para obter o 'titulo'
+		gamePlatform = entity.getGame().getPlatform(); // Obtendo a plataforma
+		genreName = entity.getGame().getGenre().getName(); // Nome do genero do game
 	}
 
 	public Long getId() {
@@ -86,8 +90,4 @@ public class RecordDTO implements Serializable {
 		this.genreName = genreName;
 	}
 
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-	
 }
