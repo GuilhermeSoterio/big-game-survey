@@ -7,12 +7,12 @@
 </h3>
 
 <p align="center">
- <a href="#-Visão Geral">Visão Geral</a> •
+ <a href="#-Descriçao">Visão Geral</a> •
  <a href="#-layout">Layout</a> •
  <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-Como usar:">Como usar</a> •
- <a href="#-Ferramentas">Ferramentas</a> •
- <a href="#-Links">Links</a>
+ <a href="#-rodando">Rodando</a> •
+ <a href="#-ferramentas">Ferramentas</a> •
+ <a href="#-links">Links</a>
 </p>
 
 ## 📋 Visão geral
@@ -53,7 +53,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - [Axios](https://github.com/axios/axios)
 - [ApexCharts.js](https://apexcharts.com/)
 f
-## ℹ️ Como usar:
+##  ℹ️  Rodando:
 Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com) e do [npm](https://www.npmjs.com/) instalados no seu computador. Na linha de comando: Para clonar e executar este aplicativo, você precisa do Git e do npm instalados no seu computador. Na linha de comando:
 ```bash
 # Clone this repository
