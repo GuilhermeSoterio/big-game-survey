@@ -52,8 +52,8 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
 - [Axios](https://github.com/axios/axios)
 - [ApexCharts.js](https://apexcharts.com/)
-f
-##  ℹ️  Rodando:
+ℹ️
+## 💻 Rodando
 Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com) e do [npm](https://www.npmjs.com/) instalados no seu computador. Na linha de comando: Para clonar e executar este aplicativo, você precisa do Git e do npm instalados no seu computador. Na linha de comando:
 ```bash
 # Clone this repository
