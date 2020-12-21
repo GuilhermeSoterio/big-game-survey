@@ -7,11 +7,11 @@
 </h3>
 
 <p align="center">
- <a href="#-sobre">Sobre</a> •
+ <a href="#-sobre">Visão Geral</a> •
  <a href="#-layout">Layout</a> •
  <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-autor">Autor</a> •
- <a href="#-licença">Licença</a>
+ <a href="#-autor">Ferramentas</a> •
+ <a href="#-licença">Links</a>
 </p>
 
 ## :clipboard: Visão geral
@@ -20,7 +20,7 @@ Aprender de forma prática os conceitos aplicados na engenharia de software, com
 E também masterizar ainda mais as tecnologias e frameworks voltadas a Java/Spring no back, e React Typescript no Front.
 #### Qual é a ideia do projeto?
 <p>
-Big Game Survey surgiu da ideia de criar uma forma de classificar o gosto de usuários em preferências sobre os jogos nas suas diversas plataformas. Além de um cadastro com um formulário que coleta as informações dos usuários, e listagem com paginação dos jogadores ele também gera um gráfico de tabela.
+Big Game Survey surgiu da ideia de criar uma forma de classificar o gosto de usuários em preferências sobre os jogos nas suas diversas plataformas. Além de um cadastro com um formulário que coleta as informações dos usuários, e listagem com paginação dos jogadores ele também gera um gráfico de tabela.ll
 </p>
 
 ---
@@ -42,16 +42,18 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - [Java 11](https://www.java.com/pt-BR/)
 - [Spring Boot](https://spring.io/)
 - [PostgreSQL](https://www.postgresql.org/)
-- [ReactNative](https://reactnative.dev/)
+- [H2](https://www.h2database.com/html/main.html)
 
 #### FrontEnd:
 - [ReactJS](https://pt-br.reactjs.org/)
+- [Typescript](https://pt-br.reactjs.org/)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
+- [Axios](https://github.com/axios/axios)
+- [ApexCharts.js](https://apexcharts.com/)
 f
 ## :information_source: Como usar:
-To clone and run this application, you'll need [Git](https://git-scm.com), and [npm](https://www.npmjs.com/) installed on your computer. From your command line:
-Para clonar e executar este aplicativo, você precisará do Git e do npm instalados no seu computador. Na linha de comando:
+Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com) e do [npm](https://www.npmjs.com/) instalados no seu computador. Na linha de comando: Para clonar e executar este aplicativo, você precisa do Git e do npm instalados no seu computador. Na linha de comando:
 ```bash
 # Clone this repository
 $ git clone https://github.com/duduxs/sds1
@@ -60,7 +62,7 @@ $ git clone https://github.com/duduxs/sds1
 $ cd sds1
 ```
 
-To run the API server:
+Para rodar a API server:
 
 ```bash
 # Go into the api folder
@@ -73,7 +75,7 @@ $ npm i
 $ npm run start
 ```
 
-To run the frontend web:
+Para rodar o frontend web:
 
 ```bash
 # Go into the web folder
@@ -88,7 +90,7 @@ $ npm run start
 
 Now access on your browser: http://localhost:3000
 
-## 🛠 Ferramentas de suporte
+## 🛠 Ferramentas
 
 - [Spring Tools Suite 4](https://spring.io/tools) - IDE de desenvolvimento de aplicações Spring.
 - [Postman](https://www.postman.com/) - documentação das requisições API REST.
