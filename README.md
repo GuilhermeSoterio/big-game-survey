@@ -12,6 +12,7 @@
  <a href="#-tecnologias">Tecnologias</a> •
  <a href="#-rodando">Rodando</a> •
  <a href="#-ferramentas">Ferramentas</a> •
+  <a href="#-modelagem">Modelagem</a> •
  <a href="#-links">Links</a>
 </p>
 
@@ -98,5 +99,7 @@ Now access on your browser: http://localhost:3000
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) - Serviço de suporte a hospedagem.
 - [Visual Studio Code](https://code.visualstudio.com/) - IDE de desenvolvimento geral.
 
+## 	:triangular_ruler: Modelagem
+<img src="modelagem.jpg" width="850">
 ## 🔗 **Links**
 
