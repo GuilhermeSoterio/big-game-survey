@@ -7,12 +7,12 @@
 </h3>
 
 <p align="center">
- <a href="#-sobre">Visão Geral</a> •
+ <a href="#-Visão Geral">Visão Geral</a> •
  <a href="#-layout">Layout</a> •
  <a href="#-tecnologias">Tecnologias</a> •
  <a href="#-Como usar">Como usar</a> •
- <a href="#-autor">Ferramentas</a> •
- <a href="#-licença">Links</a>
+ <a href="#-Ferramentas">Ferramentas</a> •
+ <a href="#-Links">Links</a>
 </p>
 
 ## :clipboard: Visão geral
