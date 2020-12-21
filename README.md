@@ -10,7 +10,7 @@
  <a href="#-Visão Geral">Visão Geral</a> •
  <a href="#-layout">Layout</a> •
  <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-Como usar">Como usar</a> •
+ <a href="#-Como usar:">Como usar</a> •
  <a href="#-Ferramentas">Ferramentas</a> •
  <a href="#-Links">Links</a>
 </p>
