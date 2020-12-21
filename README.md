@@ -10,6 +10,7 @@
  <a href="#-sobre">Visão Geral</a> •
  <a href="#-layout">Layout</a> •
  <a href="#-tecnologias">Tecnologias</a> •
+ <a href="#-Como usar">Como usar</a> •
  <a href="#-autor">Ferramentas</a> •
  <a href="#-licença">Links</a>
 </p>
@@ -97,9 +98,7 @@ Now access on your browser: http://localhost:3000
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) - Serviço de suporte a hospedagem.
 - [Visual Studio Code](https://code.visualstudio.com/) - IDE de desenvolvimento geral.
 
-## :link: **links**
-
-
+## :link: **Links**
 
 Copyright © 2020 [Gustavo Damaceno](https://github.com/gustavoddainezi).<br/>
 Este projeto é licenciado pelo [MIT](./LICENSE).
