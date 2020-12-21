@@ -90,7 +90,7 @@ $ npm i
 $ npm run start
 ```
 
-Now access on your browser: http://localhost:3000
+Acesse a rota do browser: http://localhost:3000
 
 ## 🛠 Ferramentas
 
