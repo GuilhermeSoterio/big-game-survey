@@ -100,8 +100,9 @@ Acesse a rota do browser: http://localhost:3000
 - [Visual Studio Code](https://code.visualstudio.com/) - IDE de desenvolvimento geral.
 
 ## 📐 Modelagem
-
-<img src="modelagem.jpg" width="850">
+<p align="center">
+  <img src="modelagem.jpg" width="650">
+</p>
 
 ## 🔗 Licença
 
