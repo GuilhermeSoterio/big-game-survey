@@ -15,7 +15,7 @@
  <a href="#-Links">Links</a>
 </p>
 
-## :clipboard: Visão geral
+## 📋 Visão geral
 #### Qual foi a minha motivação?
 Aprender de forma prática os conceitos aplicados na engenharia de software, como o Padrão de Camadas MVC, DTO, controladores REST e a arquitetura de comunicação e transferência de dados entre a API e frontEnd.
 E também masterizar ainda mais as tecnologias e frameworks voltadas a Java/Spring no back, e React Typescript no Front.
@@ -53,7 +53,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - [Axios](https://github.com/axios/axios)
 - [ApexCharts.js](https://apexcharts.com/)
 f
-## :information_source: Como usar:
+## ℹ️ Como usar:
 Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com) e do [npm](https://www.npmjs.com/) instalados no seu computador. Na linha de comando: Para clonar e executar este aplicativo, você precisa do Git e do npm instalados no seu computador. Na linha de comando:
 ```bash
 # Clone this repository
@@ -98,5 +98,5 @@ Now access on your browser: http://localhost:3000
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) - Serviço de suporte a hospedagem.
 - [Visual Studio Code](https://code.visualstudio.com/) - IDE de desenvolvimento geral.
 
-## :link: **Links**
+## 🔗 **Links**
 
