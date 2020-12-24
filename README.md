@@ -22,7 +22,7 @@ Aprender de forma prática os conceitos aplicados na engenharia de software, com
 E também masterizar ainda mais as tecnologias e frameworks voltadas a Java/Spring no back, e React Typescript no Front.
 #### Qual é a ideia do projeto?
 <p>
-Big Game Survey surgiu da ideia de criar uma forma de classificar o gosto de usuários em preferências sobre os jogos nas suas diversas plataformas. Além de um cadastro com um formulário que coleta as informações dos usuários, e listagem com paginação dos jogos dados respondido e incluindo um gráfico com as estatísticas dos jogadores.
+Big Game Survey surgiu da ideia de criar uma forma de classificar o gosto de usuários em preferências sobre os jogos nas suas diversas plataformas. Além de um cadastro com um formulário que coleta as informações dos usuários, ele faz uma listagem com paginação dos dados respondido e inclui um gráfico com as estatísticas dos jogadores.
 </p>
 
 ---
