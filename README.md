@@ -81,7 +81,7 @@ Para rodar o frontend web:
 
 ```bash
 # Go into the web folder
-$ cd frontend-web
+$ cd front-web
 
 # Install dependencies
 $ npm i
