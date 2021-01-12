@@ -58,7 +58,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com) e do [npm](https://www.npmjs.com/) instalados no seu computador. Na linha de comando: Para clonar e executar este aplicativo, você precisa do Git e do npm instalados no seu computador. Na linha de comando:
 ```bash
 # Clone this repository
-$ git clone https://github.com/duduxs/sds1
+$ git clone https://github.com/GuilhermeSoterio/big-game-survey
 
 # Go into the repository
 $ cd sds1
